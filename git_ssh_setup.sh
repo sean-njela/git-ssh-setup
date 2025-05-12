@@ -93,5 +93,5 @@ fi
 echo -e "\n🔍 Testing SSH connection to $GIT_HOST..."
 ssh -T git@"$GIT_HOST" || echo "⚠️ Auth test failed (may need to approve GitHub prompt in browser)."
 
-echo -e "\n🎉 SSH setup complete. Use SSH clone URLs like:"
-echo "    git@$GIT_HOST:your-username/your-repo.git"
+echo -e "\n🎉 SSH setup complete. Use SSH to clone like:"
+echo "  git clone git@$GIT_HOST:your-username/your-repo.git"
